@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Inmobiliaria MAR-MAC</title>
+    <!-- Ensure 'styles.css' is optimized and contains only the necessary rules for this page -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Inmobiliaria MAR-MAC</h1>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#venta">En Venta</a></li>
+                    <li><a href="#compra">Compra</a></li>
+                    <li><a href="#renta">Renta</a></li>
+                    <li><a href="#departamentos">Departamentos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="venta">
+            <h2>Propiedades en Venta</h2>
+            <p>Encuentra las mejores propiedades disponibles para la venta.</p>
+            <div id="property-list">
+                <article class="property">
+                    <img src="casa1.jpg" alt="Casa en venta con jardín">
+                    <h3>Casa con Jardín</h3>
+                    <p>3 habitaciones, 2 baños. Precio: $250,000</p>
+                </article>
+                <article class="property">
+                    <img src="departamento1.jpg" alt="Departamento moderno en el centro">
+                    <h3>Departamento Moderno</h3>
+                    <p>2 habitaciones, 1 baño. Precio: $180,000</p>
+                </article>
+                <article class="property">
+                    <img src="casa2.jpg" alt="Casa familiar cerca de escuelas">
+                    <h3>Casa Familiar</h3>
+                    <p>4 habitaciones, 3 baños. Precio: $320,000</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="compra">
+            <h2>¿Buscas Comprar?</h2>
+            <p>Te ayudamos a encontrar la propiedad perfecta.</p>
+            <!-- Contenido adicional -->
+        </section>
+
+        <section id="renta">
+            <h2>Propiedades en Renta</h2>
+            <p>Explora nuestras opciones de alquiler para todos los presupuestos.</p>
+            <!-- Contenido adicional -->
+        </section>
+
+        <section id="departamentos">
+            <h2>Departamentos</h2>
+            <p>Descubre nuestros departamentos exclusivos.</p>
+            <!-- Contenido adicional -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Inmobiliaria MAR-MAC. Todos los derechos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#terminos">Términos y Condiciones</a></li>
+                    <li><a href="#privacidad">Política de Privacidad</a></li>
+                    <li><a href="#contacto">Contáctanos</a></li>
+                    <li><a href="#faq">Preguntas Frecuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
+
